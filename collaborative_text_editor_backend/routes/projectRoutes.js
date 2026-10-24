@@ -12,4 +12,4 @@ router.get('/:projectId/secret-code', isAuthenticated, getSecretCode);
 router.get('/secret/:secretCode', isAuthenticated, getProjectBySecretCode);
 router.post('/:projectId/collaborators', isAuthenticated, addCollaborator);
 
-module.exports = router;
+module.exports = router;
